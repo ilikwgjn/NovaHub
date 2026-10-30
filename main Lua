@@ -1,0 +1,26 @@
+-- Nova Hub | Basketball Legends
+local NovaHub = {
+    Name = "Nova Hub",
+    Version = "1.0",
+    Game = "Basketball Legends"
+}
+
+-- THEME SETTINGS --
+
+local Theme = {
+    Background = Color3.fromRGB(12, 12, 16),
+    Purple = Color3.fromRGB(145, 60, 255),
+    Text = Color3.fromRGB(255, 255, 255),
+    Secondary = Color3.fromRGB(30, 30, 38)
+}
+
+-- WINDOW SETTING --
+
+local KeyWindow = {
+    Title = "Nova Hub | Key System",
+    Subtitle = "Enter your access key",
+    Placeholder = "Enter Key Here",
+    ButtonText = "Verify Key",
+    GetKeyText = "Get Key",
+    Status = "Waiting for key..."
+}
