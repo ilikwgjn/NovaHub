@@ -1,26 +1,13 @@
--- Nova Hub | Basketball Legends
-local NovaHub = {
-    Name = "Nova Hub",
-    Version = "1.0",
-    Game = "Basketball Legends"
-}
+local _version = "1.6.66"
+local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/download/" .. _version .. "/main.lua"))() 
 
--- THEME SETTINGS --
 
-local Theme = {
-    Background = Color3.fromRGB(12, 12, 16),
-    Purple = Color3.fromRGB(145, 60, 255),
-    Text = Color3.fromRGB(255, 255, 255),
-    Secondary = Color3.fromRGB(30, 30, 38)
-}
+-- THEME
 
--- WINDOW SETTING --
+-- local Window = WindUI:CreateWindow({
+    --... ,
+    Theme = "Cotton Candy" -- enter your chosen theme name
+})
 
-local KeyWindow = {
-    Title = "Nova Hub | Key System",
-    Subtitle = "Enter your access key",
-    Placeholder = "Enter Key Here",
-    ButtonText = "Verify Key",
-    GetKeyText = "Get Key",
-    Status = "Waiting for key..."
-}
+
+-- 
